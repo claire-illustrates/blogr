@@ -1,0 +1,721 @@
+/* Utility Classes */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Skip Link */
+
+.skip-link {
+  position: absolute;
+  text-align: center;
+  transform: translateY(-200%);
+  transition: transform 0.3s;
+  width: 100%;
+}
+
+.skip-link:focus {
+  background-color: #fff;
+  color: #000;
+  height: auto;
+  outline: 2px solid #000;
+  text-decoration: none;
+  transform: translateY(10%);
+  width: 20%;
+  z-index: 1;
+}
+
+
+/* Do not show the outline on the skip link target. */
+#main[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+.designed-heading,
+.phone-illustration {
+  position: absolute;
+}
+
+.state-of-the-art,
+.laptop-illustration-desktop,
+.designed-for-future {
+  position: relative;
+}
+
+.designed-text-column,
+.laptop-illustration-desktop,
+.final-section-text {
+  width: 50%;
+}
+
+.sub-heading,
+.designed-heading {
+  color: #1f3f5b;
+}
+
+.start-button,
+.signup-button {
+  color: #B3000C;
+}
+
+.nav-link,
+.nav-link:focus,
+.login-button,
+.call-to-action,
+.state-of-the-art,
+.footer,
+.footer a,
+.attribution a {
+  color: #fff;
+}
+
+.sub-heading,
+.white-section-body-text,
+.purple-section-heading,
+.footer a {
+  margin-bottom: 5%;
+}
+
+.white-section-body-text {
+  color: #4b5862;
+  font-weight: 300;
+  width: 90%;
+}
+
+/* Hero Section */
+
+.hero {
+  background: url(images/bg-pattern-desktop.svg) center/cover no-repeat;
+  border-radius: 0 0 0 100px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: transparent;
+  padding: 30px 50px;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-left: 40px;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.navbar-brand:focus {
+  outline: 3px solid #000;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.nav-link:focus {
+  outline: 3px solid #000;
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  padding: 20px;
+}
+
+.dropdown-item:focus {
+  outline: 2px solid #000;
+}
+
+.nav-buttons {
+  width: 30%;
+}
+
+.nav-button {
+  border-radius: 50px;
+  width: auto;
+}
+
+.nav-button:focus {
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.signup-button {
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  padding: 20% 15%;
+  text-align: center;
+}
+
+.call-to-action-heading {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  font-size: 4rem;
+  margin-bottom: 1%;
+}
+
+.call-to-action-text {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+}
+
+.cta-button-div {
+  width: 80%;
+}
+
+.call-to-action-buttons {
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.call-to-action-buttons:focus {
+  outline: 3px solid #000;
+}
+
+/* Designed for the Future Section  */
+
+.designed-for-future {
+  padding: 5%;
+  margin: 8% auto;
+}
+
+.designed-heading {
+  bottom: 95%;
+  font-size: 48px;
+  font-size: 3rem;
+}
+
+.designed-text-column {
+  margin: 0 auto 5%;
+}
+
+.illustration-editor-desktop {
+  transform: translateX(12%);
+  width: 45%;
+}
+
+.illustration-editor-mobile {
+  display: none;
+}
+
+/* State of the Art Infastructure Section */
+
+.state-of-the-art {
+  background: url(images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 0 100px 0 100px;
+  padding: 10%;
+}
+
+.phone-illustration {
+  transform: translate(-20%, -50%);
+  width: 40%;
+}
+
+.purple-section-text-div {
+  width: 50%;
+}
+
+.purple-section-heading {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+.purple-section-body-text {
+  opacity: 0.5;
+  width: 75%;
+}
+
+/* Final Section */
+
+.final-section {
+  padding: 10% 5%;
+}
+
+.laptop-illustration-desktop {
+  right: 6.5%;
+}
+
+.laptop-illustration-mobile {
+  display: none;
+}
+
+.final-section-text {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #25252d;
+  border-radius: 0 100px 0 0;
+  padding: 5% 0 0;
+}
+
+.logo-column {
+  margin-left: 5%;
+}
+
+.footer-text {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.footer-text:focus {
+  outline: 2px solid #fff;
+}
+
+.footer-heading {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin-bottom: 10%;
+}
+
+.attribution {
+  background-color: #3f4164;
+  margin-top: 4%;
+  padding: 1.5%;
+}
+
+.attribution a {
+  text-decoration: none;
+}
+
+.attribution a:focus {
+  outline: 2px solid #fff;
+}
+
+/* Media Queries */
+
+/* Hover Styles */
+
+@media (hover:hover) and (pointer:fine) {
+
+  .nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .nav-button:hover {
+    background-color: #ff7a85;
+    color: #fff;
+    border: none;
+  }
+
+  .dropdown-item:hover {
+    background-color: #fff;
+    font-weight: 500;
+  }
+
+  .signup-button:hover {
+    border: 2px solid black;
+  }
+}
+
+/* Tablets */
+
+@media only screen and (max-width:1180px) {
+
+  /* Utility Classes */
+
+  .designed-for-future,
+  .state-of-the-art,
+  .final-section,
+  .footer {
+    flex-direction: column;
+  }
+
+  .navbar-collapse,
+  .dropdown-menu,
+  .designed-for-future,
+  .state-of-the-art,
+  .final-section-text,
+  .footer {
+    text-align: center;
+  }
+
+  .sub-heading {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
+
+  .white-section-body-text,
+  .footer-text,
+  .purple-section-body-text {
+    font-size: 25.6px;
+    font-size: 1.6rem;
+  }
+
+  .nav-buttons,
+  .designed-text-column,
+  .purple-section-text-div,
+  .purple-section-body-text {
+    width: 100%;
+  }
+
+  .final-section-text,
+  .footer-heading {
+    margin: 5% auto;
+  }
+
+  /* Navbar */
+
+  .navbar {
+    padding: 30px;
+  }
+
+  .navbar-collapse {
+    background: #fff;
+    border-radius: 10px;
+    padding: 5% 2%;
+    transform: translateY(12%);
+    z-index: 1;
+  }
+
+  .navbar-toggler {
+    color: #fff;
+  }
+
+  .nav-link,
+  .login-button {
+    color: #1f3f5b;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .dropdown-item {
+    color: #4b5862;
+  }
+
+  /* Form containing 2 nav-buttons */
+  .nav-buttons {
+    background-color: #fff;
+    justify-content: center !important;
+  }
+
+  .nav-button {
+    width: 30%;
+  }
+
+  .dropdown-menu {
+    background-color: #EFEFF1;
+    border: none;
+  }
+
+  .dropdown-toggle::after {
+    color: #ff525d;
+  }
+
+  .close-menu-icon {
+    display: none;
+  }
+
+  .hero {
+    background-image: url(images/bg-pattern-desktop.svg);
+    border-radius: 0 0 0 100px;
+  }
+
+  /* Call to Action */
+
+  .call-to-action-buttons {
+    width: 30%;
+  }
+
+  .call-to-action-heading,
+  .call-to-action-text,
+  .cta-button-div {
+    transform: translateY(-40%);
+  }
+
+  .call-to-action-heading {
+    font-size: 48px;
+    font-size: 3rem;
+  }
+
+  .call-to-action-text {
+    margin: 0 auto 5%;
+  }
+
+  /* Designed for the Future Section */
+
+  .designed-for-future {
+    margin-bottom: 20%;
+    padding: 10%;
+  }
+
+  .designed-heading {
+    font-size: 44px;
+    font-size: 2.75rem;
+    position: static;
+    transform: translateY(-80%);
+  }
+
+  .illustration-editor-desktop {
+    display: none;
+  }
+
+  .illustration-editor-mobile {
+    display: block;
+    margin-bottom: 8%;
+    order: 1;
+  }
+
+  .designed-text-column {
+    order: 2;
+  }
+
+  .white-section-body-text {
+    margin: 0 auto 10%;
+  }
+
+  /* State of the Art Section */
+
+  .state-of-the-art {
+    padding: 30% 10%;
+  }
+
+  .phone-illustration {
+    width: 65%;
+    transform: translate(-15%, -95%);
+  }
+
+  .purple-section-body-text {
+    margin: auto;
+  }
+
+  /* Final Section */
+
+  .laptop-illustration-desktop {
+    display: none;
+  }
+
+  .laptop-illustration-mobile {
+    display: block;
+    width: 90%;
+  }
+
+  .final-section-text {
+    width: 90%;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 10% 0 0;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin: 0 auto 10%;
+  }
+
+  .logo-column {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+  }
+
+  .footer-heading {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+  }
+
+  .attribution {
+    padding: 5%;
+  }
+}
+
+/* Phones */
+
+@media only screen and (max-width:688px) {
+
+  /* Utility Classes */
+
+  .white-section-body-text,
+  .dropdown-item,
+  .footer a,
+  .nav-link,
+  .nav-button,
+  .call-to-action-text,
+  .attribution,
+  .attribution a {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  .dropdown-item,
+  .laptop-illustration-mobile,
+  .footer a {
+    margin-bottom: 5%;
+  }
+
+  .purple-section-body-text,
+  .nav-link,
+  .final-section-text {
+    margin: 0 auto;
+  }
+
+  .white-section-body-text,
+  .nav-button,
+  .call-to-action-text {
+    margin: 0 auto 10%;
+  }
+
+  .nav-buttons,
+  .call-to-action-heading,
+  .call-to-action-text,
+  .illustration-editor-mobile,
+  .phone-illustration,
+  .cta-button-div,
+  .white-section-body-text,
+  .final-section-text,
+  .attribution {
+    width: 100%;
+  }
+
+  /* Navbar */
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  .nav-logo {
+    width: 60%;
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+
+  .nav-button {
+    width: 40%;
+  }
+
+  hr {
+    color: #c8c8cb;
+    opacity: 1;
+  }
+
+  .signup-button {
+    background-image: linear-gradient(to right, #ff8f70, #ff3d54);
+    color: #fff;
+  }
+
+  /* Call to Action */
+
+  .call-to-action {
+    padding: 30% 5%;
+  }
+
+  .call-to-action-heading {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+
+  .call-to-action-buttons {
+    font-size: 12.8px;
+    font-size: 0.8rem;
+    width: 40%;
+  }
+
+  /* Designed for the Future Section */
+
+  .designed-for-future {
+    margin: 10% auto 50%;
+    padding: 5%;
+  }
+
+  .designed-heading {
+    font-size: 25.6px;
+    font-size: 1.6rem;
+    margin: 10% auto;
+  }
+
+  .sub-heading {
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin: 5% auto;
+    width: 80%;
+  }
+
+  /* State of the art Infastructure Section */
+
+  .state-of-the-art {
+    background-position: 2% -50%;
+    justify-content: center;
+  }
+
+  .phone-illustration {
+    width: 80%;
+    transform: translate(-10%, -70%);
+  }
+
+  .purple-section-body-text {
+    font-size: 12.8px;
+    font-size: 0.8rem;
+  }
+
+  .purple-section-heading {
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    margin-top: 15%;
+  }
+
+  /* Final Section */
+
+  .final-section {
+    padding: 15% 7.5%;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 15% 0 0;
+  }
+
+  .footer-links {
+    padding-bottom: 15%;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .footer-heading {
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 8%;
+  }
+
+  .attribution {
+    margin: auto;
+  }
+
+}
