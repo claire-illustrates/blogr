@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Blogr - a publishing platform that allows you to grow your audience and build your online brand">
+  <meta name="keywords"
+    content="blog, blogger, publishing, blogging, writing, writer, content, platform, content creator, self-publishing">
+  <meta name="author" content="Claire Browne">
+  <title>Blogr - A Modern Publishing Platform</title>
+
+  <!-- Bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/9c76048cd3.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">
+    Skip to main content
+  </a>
+
+  <!-- Header - Navbar & Call to Action -->
+
+  <header role="banner" class="hero">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-xl navbar-default" role="navigation">
+      <div class="container-fluid d-flex justify-content-center align-items-center">
+        <a class="navbar-brand me-auto" href="index.html"><img class="nav-logo" src="images/logo.svg" alt="Blogr logo, go to home page"></a>
+        <button class="navbar-toggler hamburger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+          aria-label="menu">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Product</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                <li><a class="dropdown-item" href="#">Features</a></li>
+                <li><a class="dropdown-item" href="#">Integrations</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Company</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Connect</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr>
+          <form class="d-flex nav-buttons ms-auto justify-content-end">
+            <button class="btn login-button nav-button" type="button">Login</button>
+            <button class="btn signup-button nav-button" type="button">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Call to Action -->
+
+    <section class="call-to-action d-flex flex-column align-items-center" aria-label="sign up or learn more">
+      <h1 id="cta-heading" class="call-to-action-heading">A modern publishing platform</h1>
+      <p class="call-to-action-text">Grow your audience and build your online brand</p>
+      <div class="cta-button-div d-flex justify-content-center">
+        <button class="btn btn-light call-to-action-buttons start-button" type="button" name="button">Start for
+          Free</button>
+        <button class="btn btn-outline-light call-to-action-buttons learn-more-button" type="button" name="button">Learn
+          More</button>
+      </div>
+    </section>
+
+  </header>
+
+  <div class="container-fluid g-0">
+
+    <main role="main" id="main">
+
+      <!-- Designed for the Future section -->
+
+      <section class="designed-for-future d-flex align-items-center justify-content-center"
+        aria-label="introduction to product">
+        <h2 id="designed-heading" class="designed-heading">Designed for the future</h2>
+        <div class="designed-text-column d-flex flex-column">
+          <h3 class="sub-heading">Introducing an extensible editor</h3>
+          <p class="white-section-body-text">Blogr features an exceedingly intuitive interface which lets you focus on
+            one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.</p>
+
+          <h3 class="sub-heading">Robust content management</h3>
+          <p class="white-section-body-text">Flexible content management enables users to easily move through posts.
+            Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full
+            control.
+          </p>
+        </div>
+
+        <img class="illustration-editor-desktop" src="images/illustration-editor-desktop.svg" alt="">
+        <img class="illustration-editor-mobile" src="images/illustration-editor-mobile.svg" alt="">
+      </section>
+
+      <!-- State of the Art Infrastructure Section -->
+
+      <section class="state-of-the-art d-flex" aria-labelledby="state-of-the-art-heading">
+        <img class="phone-illustration" src="images/illustration-phones.svg" alt="">
+        <div class="purple-section-text-div d-flex flex-column ms-auto">
+          <h2 id="state-of-the-art-heading" class="purple-section-heading">State of the Art Infrastructure</h2>
+          <p class="purple-section-body-text">With reliability and speed in mind, worldwide data centers provide the
+            backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site
+            competitive.
+          </p>
+        </div>
+      </section>
+
+      <!-- Final Section -->
+
+      <section class="final-section d-flex align-items-center" aria-label="features">
+        <img class="laptop-illustration-desktop" src="images/illustration-laptop-desktop.svg" alt="">
+        <img class="laptop-illustration-mobile" src="images/illustration-laptop-mobile.svg" alt="">
+        <div class="final-section-text">
+          <h3 id="free-heading" class="sub-heading">Free, open, simple</h3>
+          <p class="white-section-body-text">Blogr is a free and open source application backed by a large community
+            of
+            helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+          <h3 id="powerful-tooling" class="sub-heading">Powerful tooling</h3>
+          <p class="white-section-body-text">Batteries included. We built a simple and straightforward CLI tool that
+            makes customization and deployment a breeze, but
+            capable of producing even the most complicated sites.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+
+
+    <footer role="contentinfo" class="footer d-flex flex-column">
+
+      <div class="footer-links d-flex justify-content-between">
+        <div class="col-lg-2 logo-column">
+          <img class="logo" src="images/logo.svg" alt="">
+        </div>
+        <div class="col-lg-2 footer-column d-flex flex-column">
+          <h4 id="footer-heading-product" class="footer-heading">Product</h4>
+          <ul aria-labelledby="footer-heading-product">
+            <li><a class="footer-text" href="#">Overview</a></li>
+            <li><a class="footer-text" href="#">Pricing</a></li>
+            <li><a class="footer-text" href="#">Marketplace</a></li>
+            <li><a class="footer-text" href="#">Features</a></li>
+            <li><a class="footer-text" href="#">Integrations</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 footer-column d-flex flex-column">
+          <h4 id="footer-heading-company" class="footer-heading">Company</h4>
+          <ul aria-labelledby="footer-heading-company">
+            <li> <a class="footer-text" href="#">About</a></li>
+            <li><a class="footer-text" href="#">Team</a></li>
+            <li><a class="footer-text" href="#">Blog</a></li>
+            <li><a class="footer-text" href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 footer-column d-flex flex-column">
+          <h4 id="footer-heading-connect" class="footer-heading">Connect</h4>
+          <ul aria-labelledby="footer-heading-connect">
+            <li><a class="footer-text" href="#">Contact</a></li>
+            <li><a class="footer-text" href="#">Newsletter</a></li>
+            <li><a class="footer-text" href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+        <p>Coded by <a href="#">Claire Browne</a>.</p>
+      </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+  </div>
+</body>
+
+</html>
