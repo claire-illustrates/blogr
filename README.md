@@ -20,7 +20,7 @@ Users should be able to:
 
 ## My process
 
-I used this challenge to work on my core skills, especially layout & responsive sizing. I added some enhancements for accessiility including adjusting colour contrast ratios and using ARIA to label sections. I used Bootstrap for its grid layout and collapsible navigation component. 
+I used this challenge to work on my core skills, especially layout & responsive sizing. I used Bootstrap for its grid layout and collapsible navigation component.  I added some enhancements for accessiility including using ARIA to label sections. As I didn't design the colour scheme here I will note that some elements don't meet the WCAG standard for colour contrast ratio. I changed what I could while still working with the background images provided by frontend mentor. 
 
 ### Built with
 
