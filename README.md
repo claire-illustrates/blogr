@@ -1,24 +1,6 @@
 # Frontend Mentor - Blogr landing page solution
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
+This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). 
 
 ### The challenge
 
@@ -33,18 +15,18 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/claire-illustrates/blogr)
-- Live Site URL: 
+- Solution URL: https://github.com/claire-illustrates/blogr
+- Live Site URL: https://claire-illustrates.github.io/blogr/
 
 ## My process
+
+I used this challenge to work on my core skills, especially layout & responsive sizing. I added some enhancements for accessiility including adjusting colour contrast ratios and using ARIA to label sections. I used Bootstrap for its grid layout and collapsible navigation component. 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Bootstrap
+- ARIA
+- Axe Dev Tools (accessibility testing)
