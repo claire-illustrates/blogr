@@ -9,6 +9,10 @@ ul {
   padding-left: 0;
 }
 
+picture {
+  width: 40%;
+}
+
 /* Skip Link */
 
 .skip-link {
@@ -19,7 +23,7 @@ ul {
   width: 100%;
 }
 
-.skip-link:focus {
+.skip-link:focus-visible {
   background-color: #fff;
   color: #000;
   height: auto;
@@ -42,15 +46,12 @@ ul {
 }
 
 .designed-for-future,
-.laptop-illustration-desktop,
-.state-of-the-art
-{
+.state-of-the-art {
   position: relative;
 }
 
 .designed-text-column,
-.final-section-text,
-.laptop-illustration-desktop {
+.final-section-text {
   width: 50%;
 }
 
@@ -69,7 +70,7 @@ ul {
 .footer a, 
 .login-button,
 .nav-link,
-.nav-link:focus,
+.nav-link:focus-visible,
 .state-of-the-art {
   color: #fff;
 }
@@ -110,7 +111,7 @@ ul {
   padding: 15px;
 }
 
-.navbar-brand:focus {
+.navbar-brand:focus-visible {
   outline: 2px solid #FFF;
 }
 
@@ -122,7 +123,7 @@ ul {
   margin-right: 10px;
 }
 
-.nav-link:focus {
+.nav-link:focus-visible {
   outline: 3px solid #000;
   text-decoration: underline;
 }
@@ -131,7 +132,7 @@ ul {
   padding: 20px;
 }
 
-.dropdown-item:focus {
+.dropdown-item:focus-visible {
   outline: 2px solid #000;
 }
 
@@ -144,7 +145,7 @@ ul {
   width: auto;
 }
 
-.nav-button:focus {
+.nav-button:focus-visible {
   background-color: #fff;
   border: 2px solid #000;
 }
@@ -185,14 +186,14 @@ ul {
   width: 20%;
 }
 
-.call-to-action-buttons:focus {
+.call-to-action-buttons:focus-visible {
   outline: 3px solid #000;
 }
 
 /* Designed for the Future Section  */
 
 .designed-for-future {
-  padding: 5%;
+  padding: 5% 0;
   margin: 8% auto;
 }
 
@@ -204,15 +205,6 @@ ul {
 
 .designed-text-column {
   margin: 0 auto 5%;
-}
-
-.illustration-editor-desktop {
-  transform: translateX(12%);
-  width: 45%;
-}
-
-.illustration-editor-mobile {
-  display: none;
 }
 
 /* State of the Art Infastructure Section */
@@ -248,20 +240,16 @@ ul {
 /* Final Section */
 
 .final-section {
-  padding: 10% 5%;
-}
-
-.laptop-illustration-desktop {
-  right: 6.5%;
-}
-
-.laptop-illustration-mobile {
-  display: none;
+  padding: 20% 5%;
 }
 
 .final-section-text {
   margin-left: auto;
-  margin-right: 5%;
+}
+
+.final-section picture {
+  position: absolute;
+  right: 70%;
 }
 
 /* Footer */
@@ -281,7 +269,7 @@ ul {
   opacity: 0.75;
 }
 
-.footer-text:focus {
+.footer-text:focus-visible {
   outline: 2px solid #fff;
 }
 
@@ -335,6 +323,11 @@ ul {
 @media only screen and (max-width:1180px) {
 
   /* Utility Classes */
+
+  picture {
+    margin-bottom: 10%;
+    width: 80%;
+  }
 
   .designed-for-future,
   .final-section,
@@ -401,7 +394,7 @@ ul {
 
   .dropdown-item,
   .nav-link:hover,
-  .nav-link:focus {
+  .nav-link:focus-visible {
     color: #4b5862;
   }
 
@@ -458,7 +451,7 @@ ul {
 
   .designed-for-future {
     margin-bottom: 20%;
-    padding: 10%;
+    padding: 15% 5%;
   }
 
   .designed-heading {
@@ -468,13 +461,7 @@ ul {
     transform: translateY(-80%);
   }
 
-  .illustration-editor-desktop {
-    display: none;
-  }
-
-  .illustration-editor-mobile {
-    display: block;
-    margin-bottom: 8%;
+  .designed-for-future picture {
     order: 1;
   }
 
@@ -503,13 +490,13 @@ ul {
 
   /* Final Section */
 
-  .laptop-illustration-desktop {
-    display: none;
+  .final-section {
+    padding: 15% 5%;
   }
 
-  .laptop-illustration-mobile {
-    display: block;
-    width: 90%;
+  .final-section picture {
+    position: relative;
+    right:0;
   }
 
   .final-section-text {
@@ -549,6 +536,10 @@ ul {
 
   /* Utility Classes */
 
+  picture img {
+    max-width: 100%;
+  }
+
   .call-to-action-buttons,
   .call-to-action-text,
   .dropdown-item,
@@ -562,8 +553,7 @@ ul {
   }
 
   .dropdown-item,
-  .footer a, 
-  .laptop-illustration-mobile {
+  .footer a {
     margin-bottom: 5%;
   }
 
@@ -583,7 +573,6 @@ ul {
   .call-to-action-text,
   .cta-button-div,
   .final-section-text,
-  .illustration-editor-mobile,
   .nav-buttons,
   .phone-illustration,
   .white-section-body-text {
