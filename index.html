@@ -45,7 +45,7 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-xl navbar-default" role="navigation">
+    <nav class="navbar navbar-expand-xl navbar-default" role="navigation" aria-label="main">
       <div class="container-fluid d-flex justify-content-center align-items-center">
         <a class="navbar-brand me-auto" href="index.html"><img class="nav-logo" src="images/logo.svg" alt="Blogr logo, go to home page"></a>
         <button class="navbar-toggler hamburger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
@@ -131,8 +131,12 @@
           </p>
         </div>
 
-        <img class="illustration-editor-desktop" src="images/illustration-editor-desktop.svg" alt="">
-        <img class="illustration-editor-mobile" src="images/illustration-editor-mobile.svg" alt="">
+        <picture>
+          <source media="(min-width:1180px)" srcset="images/illustration-editor-desktop.svg">
+          <source media="(max-width:1180px)" srcset="images/illustration-editor-mobile.svg">
+          <img src="images/illustration-editor-desktop.svg" alt="">
+        </picture>
+
       </section>
 
       <!-- State of the Art Infrastructure Section -->
@@ -152,8 +156,13 @@
       <!-- Final Section -->
 
       <section class="final-section d-flex align-items-center" aria-label="features">
-        <img class="laptop-illustration-desktop" src="images/illustration-laptop-desktop.svg" alt="">
-        <img class="laptop-illustration-mobile" src="images/illustration-laptop-mobile.svg" alt="">
+
+        <picture>
+          <source media="(min-width:1180px)" srcset="images/illustration-laptop-desktop.svg">
+          <source media="(max-width:1180px)" srcset="images/illustration-laptop-mobile.svg">
+          <img src="images/illustration-laptop-desktop.svg" alt="">
+        </picture>
+
         <div class="final-section-text">
           <h3 id="free-heading" class="sub-heading">Free, open, simple</h3>
           <p class="white-section-body-text">Blogr is a free and open source application backed by a large community
